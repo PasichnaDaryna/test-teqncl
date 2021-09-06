@@ -11,15 +11,26 @@
 
 
 // function
-console.log(addDecl(2, 3))
-console.log(addExpr(2, 3))
+// console.log(addDecl(2, 3))
+// console.log(addExpr(2, 3))
+// console.log(addArrow)
 
-function addDecl(a, b) {
-    return a + b
+// function addDecl(a, b) {
+//     return a + b
+// }
+
+// var addExpr = function (a, b) {
+//     return a + b
+// }
+
+// const addArrow = (a, b) => a + b
+
+//example
+console.log(numProducts)
+if (!numProducts) deleteShoppingCart()
+
+var numProducts = 10;
+
+function deleteShoppingCart() {
+    console.log('All products deleted')
 }
-
-const addExpr = function (a, b) {
-    return a + b
-}
-
-const addArrow = (a, b) => a + b
